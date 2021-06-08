@@ -25,6 +25,10 @@ $(document).ready(function() {
       $('.Titulo, h1').removeClass('titulo-pointer');
       $('.cont-titulo').addClass('col-md-6');
     }
+    if($('.cta-contacto').hasClass('port-on')) {
+      $('.ccta-contacto').addClass('port-off');
+      $('.cta-contacto').removeClass('port-on');
+    }
   });
 });
 
@@ -37,7 +41,10 @@ $(document).ready(function() {
       $(' .Titulo, h1').addClass('titulo-pointer');
       $('.cont-titulo').removeClass('col-md-6');
       $('.mod-2, .mod-3, .mod-4').addClass('slide-down', 3000, 'easeOutBounce');
-
+    }
+    if($('.cta-contacto').hasClass('port-off')) {
+      $('.ccta-contacto').addClass('port-on');
+      $('.cta-contacto').removeClass('port-off');
     }
   });
 });
@@ -53,6 +60,10 @@ $(document).ready(function() {
       $('.mod-1, .mod-3, .mod-4').addClass('slide-down', 3000, 'easeOutBounce');
 
     }
+    if($('.cta-contacto').hasClass('port-off')) {
+      $('.ccta-contacto').addClass('port-on');
+      $('.cta-contacto').removeClass('port-off');
+    }
   });
 });
 
@@ -66,6 +77,10 @@ $(document).ready(function() {
       $('.cont-titulo').removeClass('col-md-6');
       $('.mod-1, .mod-2, .mod-4').addClass('slide-down', 3000, 'easeOutBounce');
     }
+    if($('.cta-contacto').hasClass('port-off')) {
+      $('.ccta-contacto').addClass('port-on');
+      $('.cta-contacto').removeClass('port-off');
+    }
   });
 });
 
@@ -77,6 +92,10 @@ $(document).ready(function() {
       $(' .Titulo, h1').addClass('titulo-pointer');
       $('.cont-titulo').removeClass('col-md-6');
       $('.mod-1, .mod-2, .mod-3').addClass('slide-down', 3000, 'easeOutBounce');
+    }
+    if($('.cta-contacto').hasClass('port-off')) {
+      $('.ccta-contacto').addClass('port-on');
+      $('.cta-contacto').removeClass('port-off');
     }
     if($('.portfolio-1').hasClass('port-off')) {
       $('.portfolio-1').addClass('port-on');
