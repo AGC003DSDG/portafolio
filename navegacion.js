@@ -78,6 +78,11 @@ $(document).ready(function() {
       $('.cont-titulo').removeClass('col-md-6');
       $('.mod-1, .mod-2, .mod-3').addClass('slide-down', 3000, 'easeOutBounce');
     }
+    if($('.portfolio-1').hasClass('port-off')) {
+      $('.portfolio-1').addClass('port-on');
+      $('.portfolio-1').removeClass('port-off');
+      $('.portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5').addClass('port-off');
+    }
   });
 });
 
