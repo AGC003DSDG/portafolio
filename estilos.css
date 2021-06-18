@@ -449,6 +449,19 @@ font-size: 2.5rem!important;
 
 }
 
+.ilustracion-portafolio{  
+
+  max-height: 400px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.ilustracion-portafolio-2{  
+
+  max-height: 600px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
 
 .portafolio-cont {
   width: 100%;
